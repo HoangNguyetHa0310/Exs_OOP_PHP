@@ -25,7 +25,7 @@ if (isset($_GET['deleteId']) && !empty($_GET['deleteId'])) {
     <div class="card text-center" style="padding:15px;">
         <h4>PHP MySql OOP CRUD Example Tutorial</h4>
     </div><br><br>
-
+    
     <div class="container">
         <?php
         if (isset($_GET['msg1']) == "insert") {
